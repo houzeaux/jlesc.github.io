@@ -37,11 +37,14 @@ in order to dynamically balance the computation of particle transport.
 The work have just started. 
 The data structure required by Pampa was coded in Alya and Pampa was interfaced with Alya.
 
+## Results for 2016/2017
+Pampa data structure was prepared for codes based on full row assembly and the existence of halos. Alya only assembles partial matrices and does not require neither halo nodes nor halo elements. As Alya data structure is quite representative of the Finite Element community, it was decided to spend some time on adapting Pampa to this format. The work is currently in course.
+
 ## Visits and meetings
 
 * {% person houzeaux_g %} and {% person vazquez_m %} met INRIA team at Bordeaux, 14-15 Oct. 2016.
 * {% person houzeaux_g %} and {% person mehta_v %} met INRIA team at Bordeaux, 24-26 Feb. 2016. 
-* Visit of {% person lachat_c %} and {% person jeannot_e %} at BSC forecast for spring. 
+* {% person lachat_c %} BSC team at Barcelona, Nov. 2016. 
 
 ## Impact and publications
 The first objective of this project is to dynamically load balance the particle transport.

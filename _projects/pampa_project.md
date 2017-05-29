@@ -33,6 +33,9 @@ If a classical mesh partitioning based on the balancing of the number of element
 In this project we aim at implementing the Pampa library in Alya in order to redistribute the elements among the MPI processes
 in order to dynamically balance the computation of particle transport.
 
+## Results for 2016/2017
+Pampa was originally based on a different parallel data structure than Alya's one. On the one hand, Alya's parallel data structure is based on the partitioning of the mesh into disjoint set of elements. On the interfaces, nodes are duplicated and no halo is required. On the other hand, Pampa required halos to set up the exchange subroutines after repartitioning. In the first period of the project, the interface alya2pampa was designed. It was finally decided to adapt Pampa data structure for the sake of generality, as many finite element codes have similar parallel data structure to Alya's. The new version of Pampa is presently being tested into Alya.
+
 ## Results for 2015/2016
 The work have just started. 
 The data structure required by Pampa was coded in Alya and Pampa was interfaced with Alya.
@@ -41,7 +44,7 @@ The data structure required by Pampa was coded in Alya and Pampa was interfaced 
 
 * {% person houzeaux_g %} and {% person vazquez_m %} met INRIA team at Bordeaux, 14-15 Oct. 2016.
 * {% person houzeaux_g %} and {% person mehta_v %} met INRIA team at Bordeaux, 24-26 Feb. 2016. 
-* Visit of {% person lachat_c %} and {% person jeannot_e %} at BSC forecast for spring. 
+* {% person lachat_c %} mets BSC team at Barcelona, 7-9 Nov. 2016.
 
 ## Impact and publications
 The first objective of this project is to dynamically load balance the particle transport.

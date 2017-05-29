@@ -41,7 +41,7 @@ The data structure required by Pampa was coded in Alya and Pampa was interfaced 
 
 * {% person houzeaux_g %} and {% person vazquez_m %} met INRIA team at Bordeaux, 14-15 Oct. 2016.
 * {% person houzeaux_g %} and {% person mehta_v %} met INRIA team at Bordeaux, 24-26 Feb. 2016. 
-* Visit of {% person lachat_c %} and {% person jeannot_e %} at BSC forecast for spring. 
+* {% person lachat_c %} meets BSC team at Barcelona, 12-15 Nov. 2016. 
 
 ## Impact and publications
 The first objective of this project is to dynamically load balance the particle transport.
